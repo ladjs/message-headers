@@ -1,7 +1,6 @@
 # message-headers
 
 [![build status](https://img.shields.io/travis/niftylettuce/message-headers.svg)](https://travis-ci.org/niftylettuce/message-headers)
-[![code coverage](https://img.shields.io/codecov/c/github/niftylettuce/message-headers.svg)](https://codecov.io/gh/niftylettuce/message-headers)
 [![code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![made with lass](https://img.shields.io/badge/made_with-lass-95CC28.svg)](https://lass.js.org)
@@ -62,7 +61,7 @@ console.log('deprecated', messageHeaders.deprecated);
 [MIT](LICENSE) © [Nick Baugh](http://niftylettuce.com/)
 
 
-## 
+##
 
 [npm]: https://www.npmjs.com/
 
