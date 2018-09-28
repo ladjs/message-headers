@@ -1,7 +1,7 @@
 {
   "name": "message-headers",
   "description": "Automatically updated list of RFC HTTP permanent and provisional headers from IANA (<https://www.iana.org/assignments/message-headers/message-headers.xhtml>)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)",
   "bugs": {
     "url": "https://github.com/niftylettuce/message-headers/issues",
