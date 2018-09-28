@@ -1,0 +1,2760 @@
+[
+  {
+    "Header Field Name": "A-IM",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Accept",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.3.2]"
+  },
+  {
+    "Header Field Name": "Accept-Additions",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Accept-Charset",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.3.3]"
+  },
+  {
+    "Header Field Name": "Accept-Datetime",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "informational",
+    "Reference": "[RFC7089]"
+  },
+  {
+    "Header Field Name": "Accept-Encoding",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.3.4][RFC7694, Section 3]"
+  },
+  {
+    "Header Field Name": "Accept-Features",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Accept-Language",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.3.5]"
+  },
+  {
+    "Header Field Name": "Accept-Language",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Accept-Patch",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC5789]"
+  },
+  {
+    "Header Field Name": "Accept-Post",
+    "Template": "perm/accept-post",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[https://www.w3.org/TR/ldp/]"
+  },
+  {
+    "Header Field Name": "Accept-Ranges",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7233, Section 2.3]"
+  },
+  {
+    "Header Field Name": "Age",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7234, Section 5.1]"
+  },
+  {
+    "Header Field Name": "Allow",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 7.4.1]"
+  },
+  {
+    "Header Field Name": "ALPN",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7639, Section 2]"
+  },
+  {
+    "Header Field Name": "Also-Control",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC1849][RFC5536]"
+  },
+  {
+    "Header Field Name": "Alt-Svc",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7838]"
+  },
+  {
+    "Header Field Name": "Alt-Used",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7838]"
+  },
+  {
+    "Header Field Name": "Alternate-Recipient",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Alternates",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Apply-To-Redirect-Ref",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4437]"
+  },
+  {
+    "Header Field Name": "Approved",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Archive",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Archived-At",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "Archived-At",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "Article-Names",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC1849][RFC5536]"
+  },
+  {
+    "Header Field Name": "Article-Updates",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC1849][RFC5536]"
+  },
+  {
+    "Header Field Name": "Authentication-Control",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "experimental",
+    "Reference": "[RFC8053, Section 4]"
+  },
+  {
+    "Header Field Name": "Authentication-Info",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7615, Section 3]"
+  },
+  {
+    "Header Field Name": "Authentication-Results",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC7601]"
+  },
+  {
+    "Header Field Name": "Authorization",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7235, Section 4.2]"
+  },
+  {
+    "Header Field Name": "Auto-Submitted",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC3834 section 5]"
+  },
+  {
+    "Header Field Name": "Autoforwarded",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Autosubmitted",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Base",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "obsoleted",
+    "Reference": "[RFC1808][RFC2068 Section 14.11]"
+  },
+  {
+    "Header Field Name": "Bcc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Body",
+    "Template": "",
+    "Protocol": "none",
+    "Status": "reserved",
+    "Reference": "[RFC6068]"
+  },
+  {
+    "Header Field Name": "C-Ext",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "C-Man",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "C-Opt",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "C-PEP",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "C-PEP-Info",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Cache-Control",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7234, Section 5.2]"
+  },
+  {
+    "Header Field Name": "CalDAV-Timezones",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7809, Section 7.1]"
+  },
+  {
+    "Header Field Name": "Cancel-Key",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC8315]"
+  },
+  {
+    "Header Field Name": "Cancel-Lock",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC8315]"
+  },
+  {
+    "Header Field Name": "Cc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Close",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "reserved",
+    "Reference": "[RFC7230, Section 8.1]"
+  },
+  {
+    "Header Field Name": "Comments",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Comments",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Connection",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 6.1]"
+  },
+  {
+    "Header Field Name": "Content-Alternative",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Base",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "obsoleted",
+    "Reference": "[RFC2068][RFC2616]"
+  },
+  {
+    "Header Field Name": "Content-Base",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "obsoleted",
+    "Reference": "[RFC2110][RFC2557]"
+  },
+  {
+    "Header Field Name": "Content-Description",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Disposition",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6266]"
+  },
+  {
+    "Header Field Name": "Content-Disposition",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Duration",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Encoding",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 3.1.2.2]"
+  },
+  {
+    "Header Field Name": "Content-features",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-ID",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Content-ID",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Identifier",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Language",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 3.1.3.2]"
+  },
+  {
+    "Header Field Name": "Content-Language",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Length",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 3.3.2]"
+  },
+  {
+    "Header Field Name": "Content-Location",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 3.1.4.2]"
+  },
+  {
+    "Header Field Name": "Content-Location",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-MD5",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Content-MD5",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Range",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7233, Section 4.2]"
+  },
+  {
+    "Header Field Name": "Content-Return",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Script-Type",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Content-Style-Type",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Content-Transfer-Encoding",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Translation-Type",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "standard",
+    "Reference": "[RFC8255]"
+  },
+  {
+    "Header Field Name": "Content-Type",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 3.1.1.5]"
+  },
+  {
+    "Header Field Name": "Content-Type",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Content-Version",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Control",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Conversion",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Conversion-With-Loss",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Cookie",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6265]"
+  },
+  {
+    "Header Field Name": "Cookie2",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "obsoleted",
+    "Reference": "[RFC2965][RFC6265]"
+  },
+  {
+    "Header Field Name": "DASL",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC5323]"
+  },
+  {
+    "Header Field Name": "DAV",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "DL-Expansion-History",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Date",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 7.1.1.2]"
+  },
+  {
+    "Header Field Name": "Date",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Date",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Date-Received",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC0850][RFC5536]"
+  },
+  {
+    "Header Field Name": "Default-Style",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Deferred-Delivery",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Delivery-Date",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Delta-Base",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Depth",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "Derived-From",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Destination",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "Differential-ID",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Digest",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Discarded-X400-IPMS-Extensions",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Discarded-X400-MTS-Extensions",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Disclose-Recipients",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Disposition-Notification-Options",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Disposition-Notification-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Distribution",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "DKIM-Signature",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6376]"
+  },
+  {
+    "Header Field Name": "Downgraded-Bcc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Cc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Disposition-Notification-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Final-Recipient",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-From",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-In-Reply-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-Mail-From",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-Message-Id",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-Original-Recipient",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-Rcpt-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-References",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6857 Section 3.1.10]"
+  },
+  {
+    "Header Field Name": "Downgraded-Reply-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Resent-Bcc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Resent-Cc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Resent-From",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Resent-Reply-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Resent-Sender",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Resent-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Return-Path",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-Sender",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Downgraded-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5504][RFC6857]"
+  },
+  {
+    "Header Field Name": "Early-Data",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC8470]"
+  },
+  {
+    "Header Field Name": "Encoding",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Encrypted",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "ETag",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7232, Section 2.3]"
+  },
+  {
+    "Header Field Name": "Expect",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.1.1]"
+  },
+  {
+    "Header Field Name": "Expires",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7234, Section 5.3]"
+  },
+  {
+    "Header Field Name": "Expires",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Expires",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Expiry-Date",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Ext",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Followup-To",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Forwarded",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7239]"
+  },
+  {
+    "Header Field Name": "From",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.5.1]"
+  },
+  {
+    "Header Field Name": "From",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322][RFC6854]"
+  },
+  {
+    "Header Field Name": "From",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Generate-Delivery-Report",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "GetProfile",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Hobareg",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "experimental",
+    "Reference": "[RFC7486, Section 6.1.1]"
+  },
+  {
+    "Header Field Name": "Host",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 5.4]"
+  },
+  {
+    "Header Field Name": "HTTP2-Settings",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7540, Section 3.2.1]"
+  },
+  {
+    "Header Field Name": "IM",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "If",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "If-Match",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7232, Section 3.1]"
+  },
+  {
+    "Header Field Name": "If-Modified-Since",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7232, Section 3.3]"
+  },
+  {
+    "Header Field Name": "If-None-Match",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7232, Section 3.2]"
+  },
+  {
+    "Header Field Name": "If-Range",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7233, Section 3.2]"
+  },
+  {
+    "Header Field Name": "If-Schedule-Tag-Match",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6638]"
+  },
+  {
+    "Header Field Name": "If-Unmodified-Since",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7232, Section 3.4]"
+  },
+  {
+    "Header Field Name": "Importance",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "In-Reply-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Include-Referred-Token-Binding-ID",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC-ietf-tokbind-https-18]"
+  },
+  {
+    "Header Field Name": "Incomplete-Copy",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Injection-Date",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Injection-Info",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Keep-Alive",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Keywords",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Keywords",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Label",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Language",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Last-Modified",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7232, Section 2.2]"
+  },
+  {
+    "Header Field Name": "Latest-Delivery-Time",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Lines",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "deprecated",
+    "Reference": "[RFC5536][RFC3977]"
+  },
+  {
+    "Header Field Name": "Link",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC8288]"
+  },
+  {
+    "Header Field Name": "List-Archive",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-Help",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-ID",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-Owner",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-Post",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-Subscribe",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-Unsubscribe",
+    "Template": "perm/list-unsubscribe",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "List-Unsubscribe-Post",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC8058]"
+  },
+  {
+    "Header Field Name": "Location",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 7.1.2]"
+  },
+  {
+    "Header Field Name": "Lock-Token",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "Man",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Max-Forwards",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.1.2]"
+  },
+  {
+    "Header Field Name": "Memento-Datetime",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "informational",
+    "Reference": "[RFC7089]"
+  },
+  {
+    "Header Field Name": "Message-Context",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Message-ID",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Message-ID",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Message-Type",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Meter",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "MIME-Version",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Appendix A.1]"
+  },
+  {
+    "Header Field Name": "MIME-Version",
+    "Template": "",
+    "Protocol": "MIME",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "MMHS-Exempted-Address",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.1 and Appendix B.105]"
+  },
+  {
+    "Header Field Name": "MMHS-Extended-Authorisation-Info",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.2 and Appendix B.106]"
+  },
+  {
+    "Header Field Name": "MMHS-Subject-Indicator-Codes",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.3 and Appendix B.107]"
+  },
+  {
+    "Header Field Name": "MMHS-Handling-Instructions",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.4 and Appendix B.108]"
+  },
+  {
+    "Header Field Name": "MMHS-Message-Instructions",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.5 and Appendix B.109]"
+  },
+  {
+    "Header Field Name": "MMHS-Codress-Message-Indicator",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.6 and Appendix B.110]"
+  },
+  {
+    "Header Field Name": "MMHS-Originator-Reference",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.7 and Appendix B.111]"
+  },
+  {
+    "Header Field Name": "MMHS-Primary-Precedence",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.8 and Appendix B.101]"
+  },
+  {
+    "Header Field Name": "MMHS-Copy-Precedence",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.9 and Appendix B.102]"
+  },
+  {
+    "Header Field Name": "MMHS-Message-Type",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.10 and Appendix B.103]"
+  },
+  {
+    "Header Field Name": "MMHS-Other-Recipients-Indicator-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.12 and Appendix B.113]"
+  },
+  {
+    "Header Field Name": "MMHS-Other-Recipients-Indicator-CC",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.12 and Appendix B.113]"
+  },
+  {
+    "Header Field Name": "MMHS-Acp127-Message-Identifier",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.14 and Appendix B.116]"
+  },
+  {
+    "Header Field Name": "MMHS-Originator-PLAD",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6477][ACP123 Appendix A1.15 and Appendix B.117]"
+  },
+  {
+    "Header Field Name": "MT-Priority",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC6758]"
+  },
+  {
+    "Header Field Name": "Negotiate",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Newsgroups",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "NNTP-Posting-Date",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "NNTP-Posting-Host",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC2980][RFC5536]"
+  },
+  {
+    "Header Field Name": "Obsoletes",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Opt",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Optional-WWW-Authenticate",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "experimental",
+    "Reference": "[RFC8053, Section 3]"
+  },
+  {
+    "Header Field Name": "Ordering-Type",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Organization",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "informational",
+    "Reference": "[RFC7681]"
+  },
+  {
+    "Header Field Name": "Organization",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Origin",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6454]"
+  },
+  {
+    "Header Field Name": "Original-Encoded-Information-Types",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Original-From",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5703]"
+  },
+  {
+    "Header Field Name": "Original-Message-ID",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Original-Recipient",
+    "Template": "perm/original-recipient",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC3798][RFC5337]"
+  },
+  {
+    "Header Field Name": "Original-Sender",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5537]"
+  },
+  {
+    "Header Field Name": "Originator-Return-Address",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Original-Subject",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5703]"
+  },
+  {
+    "Header Field Name": "Overwrite",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "P3P",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Path",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "PEP",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "PICS-Label",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "PICS-Label",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Pep-Info",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Position",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Posting-Version",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC0850][RFC5536]"
+  },
+  {
+    "Header Field Name": "Pragma",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7234, Section 5.4]"
+  },
+  {
+    "Header Field Name": "Prefer",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7240]"
+  },
+  {
+    "Header Field Name": "Preference-Applied",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7240]"
+  },
+  {
+    "Header Field Name": "Prevent-NonDelivery-Report",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Priority",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "ProfileObject",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Protocol",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Protocol-Info",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Protocol-Query",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Protocol-Request",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Proxy-Authenticate",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7235, Section 4.3]"
+  },
+  {
+    "Header Field Name": "Proxy-Authentication-Info",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7615, Section 4]"
+  },
+  {
+    "Header Field Name": "Proxy-Authorization",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7235, Section 4.4]"
+  },
+  {
+    "Header Field Name": "Proxy-Features",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Proxy-Instruction",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Public",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Public-Key-Pins",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7469]"
+  },
+  {
+    "Header Field Name": "Public-Key-Pins-Report-Only",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7469]"
+  },
+  {
+    "Header Field Name": "Range",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7233, Section 3.1]"
+  },
+  {
+    "Header Field Name": "Received",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322][RFC5321]"
+  },
+  {
+    "Header Field Name": "Received-SPF",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC7208]"
+  },
+  {
+    "Header Field Name": "Redirect-Ref",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4437]"
+  },
+  {
+    "Header Field Name": "References",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "References",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Referer",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.5.2]"
+  },
+  {
+    "Header Field Name": "Relay-Version",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC0850][RFC5536]"
+  },
+  {
+    "Header Field Name": "Reply-By",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Reply-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Reply-To",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Require-Recipient-Valid-Since",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC7293]"
+  },
+  {
+    "Header Field Name": "Resent-Bcc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Resent-Cc",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Resent-Date",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Resent-From",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322][RFC6854]"
+  },
+  {
+    "Header Field Name": "Resent-Message-ID",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Resent-Reply-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "obsoleted",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Resent-Sender",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322][RFC6854]"
+  },
+  {
+    "Header Field Name": "Resent-To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Retry-After",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 7.1.3]"
+  },
+  {
+    "Header Field Name": "Return-Path",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Safe",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Schedule-Reply",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6638]"
+  },
+  {
+    "Header Field Name": "Schedule-Tag",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6638]"
+  },
+  {
+    "Header Field Name": "Sec-Token-Binding",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC-ietf-tokbind-https-18]"
+  },
+  {
+    "Header Field Name": "Sec-WebSocket-Accept",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6455]"
+  },
+  {
+    "Header Field Name": "Sec-WebSocket-Extensions",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6455]"
+  },
+  {
+    "Header Field Name": "Sec-WebSocket-Key",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6455]"
+  },
+  {
+    "Header Field Name": "Sec-WebSocket-Protocol",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6455]"
+  },
+  {
+    "Header Field Name": "Sec-WebSocket-Version",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6455]"
+  },
+  {
+    "Header Field Name": "Security-Scheme",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "See-Also",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "obsoleted",
+    "Reference": "[RFC1849][RFC5536]"
+  },
+  {
+    "Header Field Name": "Sender",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322][RFC6854]"
+  },
+  {
+    "Header Field Name": "Sender",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Sensitivity",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Server",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 7.4.2]"
+  },
+  {
+    "Header Field Name": "Set-Cookie",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6265]"
+  },
+  {
+    "Header Field Name": "Set-Cookie2",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "obsoleted",
+    "Reference": "[RFC2965][RFC6265]"
+  },
+  {
+    "Header Field Name": "SetProfile",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "SLUG",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC5023]"
+  },
+  {
+    "Header Field Name": "SoapAction",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Solicitation",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC3865]"
+  },
+  {
+    "Header Field Name": "Status-URI",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Strict-Transport-Security",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC6797]"
+  },
+  {
+    "Header Field Name": "Subject",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Subject",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC5322]"
+  },
+  {
+    "Header Field Name": "Summary",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Supersedes",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "Supersedes",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC2156]"
+  },
+  {
+    "Header Field Name": "Surrogate-Capability",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Surrogate-Control",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "TCN",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "TE",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 4.3]"
+  },
+  {
+    "Header Field Name": "Timeout",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC4918]"
+  },
+  {
+    "Header Field Name": "TLS-Report-Domain",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC-ietf-uta-smtp-tlsrpt-23]"
+  },
+  {
+    "Header Field Name": "TLS-Report-Submitter",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC-ietf-uta-smtp-tlsrpt-23]"
+  },
+  {
+    "Header Field Name": "To",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5322]"
+  },
+  {
+    "Header Field Name": "Topic",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC8030, Section 5.4]"
+  },
+  {
+    "Header Field Name": "Trailer",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 4.4]"
+  },
+  {
+    "Header Field Name": "Transfer-Encoding",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 3.3.1]"
+  },
+  {
+    "Header Field Name": "TTL",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC8030, Section 5.2]"
+  },
+  {
+    "Header Field Name": "Urgency",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC8030, Section 5.3]"
+  },
+  {
+    "Header Field Name": "URI",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Upgrade",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 6.7]"
+  },
+  {
+    "Header Field Name": "User-Agent",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 5.5.3]"
+  },
+  {
+    "Header Field Name": "User-Agent",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536][RFC2616]"
+  },
+  {
+    "Header Field Name": "Variant-Vary",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Vary",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7231, Section 7.1.4]"
+  },
+  {
+    "Header Field Name": "VBR-Info",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "standard",
+    "Reference": "[RFC5518]"
+  },
+  {
+    "Header Field Name": "Via",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7230, Section 5.7.1]"
+  },
+  {
+    "Header Field Name": "WWW-Authenticate",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7235, Section 4.1]"
+  },
+  {
+    "Header Field Name": "Want-Digest",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Warning",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[RFC7234, Section 5.5]"
+  },
+  {
+    "Header Field Name": "X400-Content-Identifier",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-Content-Return",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-Content-Type",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-MTS-Identifier",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-Originator",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-Received",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-Recipients",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X400-Trace",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC4021]"
+  },
+  {
+    "Header Field Name": "X-Content-Type-Options",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "standard",
+    "Reference": "[https://fetch.spec.whatwg.org/#x-content-type-options-header]"
+  },
+  {
+    "Header Field Name": "X-Frame-Options",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "informational",
+    "Reference": "[RFC7034]"
+  },
+  {
+    "Header Field Name": "Xref",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "standard",
+    "Reference": "[RFC5536]"
+  },
+  {
+    "Header Field Name": "Access-Control",
+    "Template": "prov/access-control",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Credentials",
+    "Template": "prov/access-control-allow-credentials",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Headers",
+    "Template": "prov/access-control-allow-headers",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Methods",
+    "Template": "prov/access-control-allow-methods",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Origin",
+    "Template": "prov/access-control-allow-origin",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Max-Age",
+    "Template": "prov/access-control-max-age",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Request-Method",
+    "Template": "prov/access-control-request-method",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Request-Headers",
+    "Template": "prov/access-control-request-headers",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "AMP-Cache-Transform",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[https://github.com/ampproject/amphtml/blob/master/spec/amp-cache-transform.md]"
+  },
+  {
+    "Header Field Name": "Apparently-To",
+    "Template": "prov/apparently-to",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC2076]"
+  },
+  {
+    "Header Field Name": "ARC-Authentication-Results",
+    "Template": "prov/arc-authentication-results",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-ietf-dmarc-arc-protocol]"
+  },
+  {
+    "Header Field Name": "ARC-Message-Signature",
+    "Template": "prov/arc-message-signature",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-ietf-dmarc-arc-protocol]"
+  },
+  {
+    "Header Field Name": "ARC-Seal",
+    "Template": "prov/arc-seal",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-ietf-dmarc-arc-protocol]"
+  },
+  {
+    "Header Field Name": "Compliance",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Content-Transfer-Encoding",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Cost",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "EDIINT-Features",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC6017]"
+  },
+  {
+    "Header Field Name": "EDIINT-Features",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6017]"
+  },
+  {
+    "Header Field Name": "Eesst-Version",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7681]"
+  },
+  {
+    "Header Field Name": "Errors-To",
+    "Template": "prov/errors-to",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC2076]"
+  },
+  {
+    "Header Field Name": "Form-Sub",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-levine-mailbomb-header]"
+  },
+  {
+    "Header Field Name": "Jabber-ID",
+    "Template": "prov/jabber-id",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7259]"
+  },
+  {
+    "Header Field Name": "Jabber-ID",
+    "Template": "prov/jabber-id",
+    "Protocol": "netnews",
+    "Status": "",
+    "Reference": "[RFC7259]"
+  },
+  {
+    "Header Field Name": "Message-ID",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Method-Check",
+    "Template": "prov/method-check",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Method-Check-Expires",
+    "Template": "prov/method-check-expires",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "MMHS-Authorizing-Users",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7912]"
+  },
+  {
+    "Header Field Name": "Non-Compliance",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Optional",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Privicon",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-koenig-privicons]"
+  },
+  {
+    "Header Field Name": "Referer-Root",
+    "Template": "prov/referer-root",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Resolution-Hint",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Resolver-Location",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "SIO-Label",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7444]"
+  },
+  {
+    "Header Field Name": "SIO-Label-History",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7444]"
+  },
+  {
+    "Header Field Name": "SubOK",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Subst",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Title",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Color",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Media",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Pixels",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Resolution",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Windowpixels",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Version",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "X-Archived-At",
+    "Template": "prov/x-archived-at",
+    "Protocol": "mail",
+    "Status": "deprecated",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "X-Archived-At",
+    "Template": "prov/x-archived-at",
+    "Protocol": "netnews",
+    "Status": "deprecated",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept",
+    "Template": "prov/x-device-accept",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept-Charset",
+    "Template": "prov/x-device-accept-charset",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept-Encoding",
+    "Template": "prov/x-device-accept-encoding",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept-Language",
+    "Template": "prov/x-device-accept-language",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-User-Agent",
+    "Template": "prov/x-device-user-agent",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Mittente",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-PGP-Sig",
+    "Template": "prov/x-pgp-sig",
+    "Protocol": "netnews",
+    "Status": "",
+    "Reference": "[ftp://ftp.isc.org/pub/pgpcontrol/FORMAT][https://ftp.isc.org/pub/pgpcontrol/FORMAT]"
+  },
+  {
+    "Header Field Name": "X-Ricevuta",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-Riferimento-Message-ID",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-TipoRicevuta",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-Trasporto",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-VerificaSicurezza",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "name": "message-headers",
+  "description": "Automatically updated list of RFC HTTP permanent and provisional headers from IANA (<https://www.iana.org/assignments/message-headers/message-headers.xhtml>)",
+  "version": "1.0.0",
+  "author": "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)",
+  "bugs": {
+    "url": "https://github.com/niftylettuce/message-headers/issues",
+    "email": "niftylettuce@gmail.com"
+  },
+  "contributors": [
+    "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)"
+  ],
+  "dependencies": {},
+  "ava": {
+    "failFast": true,
+    "verbose": true
+  },
+  "devDependencies": {
+    "auto-bind": "^1.1.0",
+    "ava": "^0.25.0",
+    "cross-env": "^5.0.5",
+    "csvtojson": "^2.0.8",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "prettier": "^1.14.3",
+    "remark-cli": "^5.0.0",
+    "remark-preset-github": "^0.0.8",
+    "staged-git-files": "^1.1.1",
+    "superagent": "^4.0.0-beta.5",
+    "xo": "^0.23.0"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "homepage": "https://github.com/niftylettuce/message-headers",
+  "keywords": [
+    "rfc",
+    "http-headers",
+    "message",
+    "message-headers",
+    "headers",
+    "https",
+    "http",
+    "compliant",
+    "spec",
+    "specification",
+    "iana",
+    "w3c",
+    "3864"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "remarkConfig": {
+    "plugins": [
+      "preset-github"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niftylettuce/message-headers"
+  },
+  "xo": {
+    "extends": "prettier",
+    "plugins": [
+      "prettier"
+    ],
+    "parserOptions": {
+      "sourceType": "script"
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "bracketSpacing": true,
+          "trailingComma": "none"
+        }
+      ],
+      "max-len": [
+        "error",
+        {
+          "code": 80,
+          "ignoreUrls": true
+        }
+      ],
+      "capitalized-comments": "off",
+      "camelcase": "off",
+      "no-warning-comments": "off"
+    },
+    "space": true
+  },
+  "scripts": {
+    "build": "node cron",
+    "lint": "xo && remark . -qfo",
+    "precommit": "npm test",
+    "test": "npm run lint && npm run build && ava"
+  }
+}

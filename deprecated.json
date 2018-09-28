@@ -1,0 +1,51 @@
+[
+  {
+    "Header Field Name": "Lines",
+    "Template": "",
+    "Protocol": "netnews",
+    "Status": "deprecated",
+    "Reference": "[RFC5536][RFC3977]"
+  },
+  {
+    "Header Field Name": "Access-Control",
+    "Template": "prov/access-control",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Method-Check",
+    "Template": "prov/method-check",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Method-Check-Expires",
+    "Template": "prov/method-check-expires",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Referer-Root",
+    "Template": "prov/referer-root",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "X-Archived-At",
+    "Template": "prov/x-archived-at",
+    "Protocol": "mail",
+    "Status": "deprecated",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "X-Archived-At",
+    "Template": "prov/x-archived-at",
+    "Protocol": "netnews",
+    "Status": "deprecated",
+    "Reference": "[RFC5064]"
+  }
+]

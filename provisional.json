@@ -1,0 +1,408 @@
+[
+  {
+    "Header Field Name": "Access-Control",
+    "Template": "prov/access-control",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Credentials",
+    "Template": "prov/access-control-allow-credentials",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Headers",
+    "Template": "prov/access-control-allow-headers",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Methods",
+    "Template": "prov/access-control-allow-methods",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Allow-Origin",
+    "Template": "prov/access-control-allow-origin",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Max-Age",
+    "Template": "prov/access-control-max-age",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Request-Method",
+    "Template": "prov/access-control-request-method",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Access-Control-Request-Headers",
+    "Template": "prov/access-control-request-headers",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "AMP-Cache-Transform",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[https://github.com/ampproject/amphtml/blob/master/spec/amp-cache-transform.md]"
+  },
+  {
+    "Header Field Name": "Apparently-To",
+    "Template": "prov/apparently-to",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC2076]"
+  },
+  {
+    "Header Field Name": "ARC-Authentication-Results",
+    "Template": "prov/arc-authentication-results",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-ietf-dmarc-arc-protocol]"
+  },
+  {
+    "Header Field Name": "ARC-Message-Signature",
+    "Template": "prov/arc-message-signature",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-ietf-dmarc-arc-protocol]"
+  },
+  {
+    "Header Field Name": "ARC-Seal",
+    "Template": "prov/arc-seal",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-ietf-dmarc-arc-protocol]"
+  },
+  {
+    "Header Field Name": "Compliance",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Content-Transfer-Encoding",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Cost",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "EDIINT-Features",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC6017]"
+  },
+  {
+    "Header Field Name": "EDIINT-Features",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6017]"
+  },
+  {
+    "Header Field Name": "Eesst-Version",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7681]"
+  },
+  {
+    "Header Field Name": "Errors-To",
+    "Template": "prov/errors-to",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC2076]"
+  },
+  {
+    "Header Field Name": "Form-Sub",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-levine-mailbomb-header]"
+  },
+  {
+    "Header Field Name": "Jabber-ID",
+    "Template": "prov/jabber-id",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7259]"
+  },
+  {
+    "Header Field Name": "Jabber-ID",
+    "Template": "prov/jabber-id",
+    "Protocol": "netnews",
+    "Status": "",
+    "Reference": "[RFC7259]"
+  },
+  {
+    "Header Field Name": "Message-ID",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Method-Check",
+    "Template": "prov/method-check",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Method-Check-Expires",
+    "Template": "prov/method-check-expires",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "MMHS-Authorizing-Users",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7912]"
+  },
+  {
+    "Header Field Name": "Non-Compliance",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Optional",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Privicon",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[draft-koenig-privicons]"
+  },
+  {
+    "Header Field Name": "Referer-Root",
+    "Template": "prov/referer-root",
+    "Protocol": "http",
+    "Status": "deprecated",
+    "Reference": "[W3C Web Application Formats Working Group]"
+  },
+  {
+    "Header Field Name": "Resolution-Hint",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Resolver-Location",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "SIO-Label",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7444]"
+  },
+  {
+    "Header Field Name": "SIO-Label-History",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC7444]"
+  },
+  {
+    "Header Field Name": "SubOK",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Subst",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Title",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Color",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Media",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Pixels",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Resolution",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "UA-Windowpixels",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "Version",
+    "Template": "",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[RFC4229]"
+  },
+  {
+    "Header Field Name": "X-Archived-At",
+    "Template": "prov/x-archived-at",
+    "Protocol": "mail",
+    "Status": "deprecated",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "X-Archived-At",
+    "Template": "prov/x-archived-at",
+    "Protocol": "netnews",
+    "Status": "deprecated",
+    "Reference": "[RFC5064]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept",
+    "Template": "prov/x-device-accept",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept-Charset",
+    "Template": "prov/x-device-accept-charset",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept-Encoding",
+    "Template": "prov/x-device-accept-encoding",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-Accept-Language",
+    "Template": "prov/x-device-accept-language",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Device-User-Agent",
+    "Template": "prov/x-device-user-agent",
+    "Protocol": "http",
+    "Status": "",
+    "Reference": "[W3C Mobile Web Best Practices Working Group]"
+  },
+  {
+    "Header Field Name": "X-Mittente",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-PGP-Sig",
+    "Template": "prov/x-pgp-sig",
+    "Protocol": "netnews",
+    "Status": "",
+    "Reference": "[ftp://ftp.isc.org/pub/pgpcontrol/FORMAT][https://ftp.isc.org/pub/pgpcontrol/FORMAT]"
+  },
+  {
+    "Header Field Name": "X-Ricevuta",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-Riferimento-Message-ID",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-TipoRicevuta",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-Trasporto",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  },
+  {
+    "Header Field Name": "X-VerificaSicurezza",
+    "Template": "",
+    "Protocol": "mail",
+    "Status": "",
+    "Reference": "[RFC6109]"
+  }
+]
